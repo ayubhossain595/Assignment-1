@@ -6,7 +6,7 @@
 /* Container holding the image and the text */
 .container {
     position: relative;
-    
+
 }
 
 /* Bottom right text */
@@ -36,4 +36,28 @@
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 1ch;
+}
+
+/* main section styles start */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.banner-titel {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.banner-sub-titel {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.banner-sub{
+    padding-left: 300px;
 }
