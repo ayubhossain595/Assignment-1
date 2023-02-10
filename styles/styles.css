@@ -92,6 +92,38 @@
     padding: 20px;
 }
 
+/* ---------posative section---------- */
+.posative{
+    background-image: url(../images/watch.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+}
+.posative-4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    padding-top: 30px;
+}
+
+.posative-1{
+}
+.posative-2{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #F15B22;
+}
+.posative-3{
+    background: no-repeat center fixed;
+}
+
+
+
 /* -----------advancer section ----------- */
 
 /* what i do styles */
