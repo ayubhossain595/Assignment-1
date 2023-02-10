@@ -43,6 +43,13 @@
     display: flex;
     align-items: center;
     margin: 0px 200px;
+    margin-bottom: 100px;
+    /* background-image: url('../images/gradient2.png'); */
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+
 }
 
 .banner-titel {
@@ -58,6 +65,124 @@
     color: #151414;
     margin-bottom: 24px;
 }
-.banner-sub{
+
+.banner-sub {
     padding-left: 300px;
+}
+
+/* my plan section styles */
+.section-1 {
+    display: flex;
+    align-items: center;
+}
+
+.plan {
+    width: 1000px;
+    margin: auto;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-titel {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+/* -----------advancer section ----------- */
+
+/* what i do styles */
+.what-i-do {
+    margin-top: 130px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700px;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 15px;
+    color: #757575;
+}
+
+.section-title {
+    margin-top: 130px;
+
+}
+
+
+
+
+
+
+
+/* ---------------footer section ----------- */
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    background: #151414;
+    color: #FFFFFF;
+    padding: 100px;
+    margin-top: 100px;
+    justify-content: space-between;
+
+}
+
+.footer-titel {
+    padding: 20px;
+}
+
+.footer-sub-titel {
+    padding: 16px;
+}
+
+.footer-sub-titel-1 {
+    padding: 16px;
+}
+
+.footer-sub-titel-2 {
+    padding: 16px;
+}
+
+.sub-footer {}
+
+.footer-1 {
+    padding: 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer-2 {
+    padding: 10px;
+}
+
+.footer-3 {
+    margin-top: 10px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+
 }
